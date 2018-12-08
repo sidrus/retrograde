@@ -2,12 +2,13 @@ html,
 body {
   background: url("img/body-bg.jpg") 100% no-repeat;
   background-size: cover;
+
+  font-family: 'Raleway', sans-serif;
 }
 
 
 .hero-section {
-  background: url("img/retrograde-reality-banner2.png") 1200px no-repeat;
-  background-size: cover;
+  height: 30vh;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -19,18 +20,24 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 
-  box-shadow: 2px 2px 4px #000000;
+  box-shadow: 0px 2px 15px #000000;
+
+  margin-bottom: 2vh;
 }
 
-.hero-section .hero-section-text {
-  color: #fefefe;
-  text-shadow: 1px 1px 2px #0a0a0a;
+.hero-section > .hero-image {
+	background: url("img/header-bg.png") no-repeat center;
+	background-size: cover;
+	height: 30vh;
+
+	box-shadow: inset 0px 0px 25px #000000;
 }
 
 .card {
-  box-shadow: 2px 2px 4px #000000;
+  box-shadow: 0px 0px 25px #000000;
 }
 
-.card > img {
-  background-size: cover;
+.card > img,
+.card-section > img {
+	background-size: contain;
 }
