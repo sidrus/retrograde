@@ -35,8 +35,8 @@ body {
 }
 
 .button-bar {
-	height: 5vh;
-	margin-bottom: 2vh;
+	height: 40px;
+	margin-bottom: 10px;
 	box-shadow: 0px 0px 25px #000000;
 	
 	background-image: url("../img/button-bg.png");
@@ -44,10 +44,21 @@ body {
 	background-position: center;
 
 	text-align: center;
-	line-height: 5vh;
+	line-height: 40px;
 }
 
-.button-bar > a {
-	height: 4vh;
-	width: 4vh;
+.fa {
+	vertical-align: middle;	
 }
+
+.button-bar .fa {
+	box-shadow: inset 0px 1px 2px #000000;
+}
+
+.btn-reverbnation {color: #fff;background-color: #f00;border-color: rgba(0,0,0,0.2)}
+.btn-reverbnation:hover{color:#fff;background-color:#c44;border-color:rgba(0,0,0,0.2)}
+.btn-reverbnation:active,.btn-soundcloud.active,.open>.dropdown-toggle.btn-soundcloud{color:#fff;background-color:#c44;border-color:rgba(0,0,0,0.2)}
+.btn-soundcloud:active:hover,.btn-soundcloud.active:hover,.open>.dropdown-toggle.btn-soundcloud:hover,.btn-soundcloud:active:focus,.btn-soundcloud.active:focus,.open>.dropdown-toggle.btn-soundcloud:focus,.btn-soundcloud:active.focus,.btn-soundcloud.active.focus,.open>.dropdown-toggle.btn-soundcloud.focus{color:#fff;background-color:#a83800;border-color:rgba(0,0,0,0.2)}
+.btn-reverbnation:active,.btn-soundcloud.active,.open>.dropdown-toggle.btn-soundcloud{background-image:none}
+.btn-reverbnation.disabled:hover,.btn-soundcloud[disabled]:hover,fieldset[disabled] .btn-soundcloud:hover,.btn-soundcloud.disabled:focus,.btn-soundcloud[disabled]:focus,fieldset[disabled] .btn-soundcloud:focus,.btn-soundcloud.disabled.focus,.btn-soundcloud[disabled].focus,fieldset[disabled] .btn-soundcloud.focus{background-color:#f50;border-color:rgba(0,0,0,0.2)}
+.btn-reverbnation .badge{color:#f00;background-color:#fff}
