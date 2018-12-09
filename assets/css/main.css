@@ -47,12 +47,12 @@ body {
 	line-height: 40px;
 }
 
-.fa {
+.fab, .fas {
 	vertical-align: middle;	
 }
 
-.button-bar .fa {
-	box-shadow: inset 0px 1px 2px #000000;
+.button-bar .fab, .button-bar .fas {
+	box-shadow: inset 0px 0px 15px #000000;
 }
 
 .btn-reverbnation {color: #fff;background-color: #f00;border-color: rgba(0,0,0,0.2)}
